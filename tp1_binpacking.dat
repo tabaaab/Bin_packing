@@ -1,0 +1,23 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: abtabaa
+ * Creation Date: 24 févr. 2021 at 22:42:04
+ *********************************************/
+
+ 
+ 
+ n=49;
+
+SheetConnection fichier("Classeur1.xlsx"); 
+
+v from SheetRead(fichier,"'Feuil2'!E3");
+ai from SheetRead(fichier,"'Feuil2'!C3:C51");
+
+//relaxation du modéle --> conversion des variables 
+
+ 
+ 
+
+ //wj=[3, 4, 4, 3, 3, 2, 1];
+ 
+ //c=10;
